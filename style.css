@@ -5,6 +5,14 @@
     font-family:Arial, sans-serif;
 }
 
+.deliver {
+    font-size: 12px;   
+}
+
+.deliver b {
+    font-size: 14px;   
+}
+
 
 .nav-top{
     background:#131921;
