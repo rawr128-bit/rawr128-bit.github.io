@@ -1,93 +1,147 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta name="description" content="Amazon India UI clone using HTML and CSS only. Responsive and SEO optimized.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon UI Clone</title>
+    <title>Amazon India UI Clone</title>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+</head>
+<body>
+
+<header class="nav-top">
+    <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon India Logo">
+    <span class="in">.in</span>
+</div>
 
 
-    <div class="nav-top">
-        <div class="logo">
-            <img src="vecteezy_amazon-logo-on-transparent-background_14018563.jpg" alt="Amazon Logo">
-        </div>
-        <div class="deliver">
-            <i class="fa-regular fa-location-dot"></i>
-        Deliver to<br>
-        <b>India</b>
-        <i class="fa-solid fa-location-dot"></i>
+    <div class="location">
+        <span class="small">Delivering to</span><br>
+        <strong>Ghaziabad 201009</strong>
+        <a href="#">Update location</a>
     </div>
 
-        <div class="search-bar">
-            <select>
-                <option>All</option>
-            </select>
-            <input type="text" placeholder="Search Amazon.in">
-            <button><img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Search" /></button>
+    <form class="search-bar">
+        <select>
+            <option>All</option>
+            <option>All Categories</option>
+        </select>
+        <input type="search" placeholder="Search Amazon.in">
+        <button>🔍</button>
+    </form>
+
+    <div class="lang">EN</div>
+
+    <div class="account">
+        <span class="small">Hello, sign in</span><br>
+        <strong>Account & Lists</strong>
+    </div>
+
+    <div class="orders">
+        <span class="small">Returns</span><br>
+        <strong>& Orders</strong>
+    </div>
+
+    <div class="cart">
+        <span class="count">0</span> 🛒 <strong>Cart</strong>
+    </div>
+</header>
+
+<nav class="nav-bottom">
+    <a href="#">All</a>
+    <a href="#">Fresh</a>
+    <a href="#">MX Player</a>
+    <a href="#">Sell</a>
+    <a href="#">Bestsellers</a>
+    <a href="#">Mobiles</a>
+    <a href="#">Today's Deals</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Prime</a>
+    <a href="#">New Releases</a>
+    <a href="#">Amazon Pay</a>
+    <a href="#">Fashion</a>
+    <a href="#">Electronics</a>
+    <a href="#">Home & Kitchen</a>
+    <a href="#">Books</a>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Up to 40% Off on Smartphones</h1>
+        <p>No Cost EMI • Exchange Offers • Bank Discounts</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    <img src="https://m.media-amazon.com/images/I/61OB0B7FA-L._AC_UL320_.jpg" alt="Smartphones">
+</section>
+
+<section class="products">
+    <div class="card">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg">
+        <h2>Home Decor</h2>
+        <p>Starting ₹399</p>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png">
+        <h2>Bulk Orders</h2>
+        <p>Business Discounts</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw1/KitchenAppliances_372_232._SY232_CB777666522_.jpg">
+        <h2>Appliances</h2>
+        <p>Up to 50% Off</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt._SY232_CB553870684_.jpg">
+        <h2>Headphones</h2>
+        <p>Top Brands</p>
+    </div>
+</section>
+
+<footer>
+    <div class="back-top"><a href="#">Back to top</a></div>
+
+    <div class="footer-links">
+        <div>
+            <h3>Get to Know Us</h3>
+            <a href="#">About Amazon</a>
+            <a href="#">Careers</a>
+            <a href="#">Press Releases</a>
+            <a href="#">Amazon Science</a>
         </div>
 
-        <div class="nav-right">
-            <div>Hello, sign in<br><b>Account & Lists</b></div>
-            <div>Returns<br><b>& Orders</b></div>
-            <div class="cart">
-                <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Cart" /> Cart
-            </div>
+        <div>
+            <h3>Connect with Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+
+        <div>
+            <h3>Make Money with Us</h3>
+            <a href="#">Sell on Amazon</a>
+            <a href="#">Fulfilment by Amazon</a>
+            <a href="#">Advertise Your Products</a>
+        </div>
+
+        <div>
+            <h3>Let Us Help You</h3>
+            <a href="#">Your Account</a>
+            <a href="#">Returns Centre</a>
+            <a href="#">Help</a>
         </div>
     </div>
 
-
-    <div class="nav-bottom">
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png" alt="Menu" /> All</a>
-        <a href="#">Fresh</a>
-        <a href="#">Mobiles</a>
-        <a href="#">Deals</a>
-        <a href="#">Customer Service</a>
-        <a href="#">Prime</a>
-        <span class="prime-ad">Join Prime Lite at ₹67/month</span>
+    <div class="footer-bottom">
+        <a href="#">Conditions of Use & Sale</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Interest-Based Ads</a>
+        <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
     </div>
+</footer>
 
-
-
-
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Smartphones</h1>
-            <h3>Starting ₹6,499</h3>
-            <p>No Cost EMI | Exchange Offers</p>
-        </div>
-        <div class="hero-img">
-            <img src="https://m.media-amazon.com/images/I/61OB0B7FA-L._AC_UL320_.jpg" alt="Hero Image">
-        </div>
-    </section>
-
-
-    <section class="cards">
-        <div class="card">
-            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg" alt="Home Decor">
-            <h3>Home Style</h3>
-        </div>
-
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Bulk Order">
-            <h3>Bulk Discounts</h3>
-        </div>
-
-        <div class="card">
-            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw1/KitchenAppliances_372_232._SY232_CB777666522_.jpg" alt="Appliances">
-            <h3>Appliances</h3>
-        </div>
-
-        <div class="card">
-            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt._SY232_CB553870684_.jpg" alt="Headphones">
-            <h3>Headphones</h3>
-        </div>
-    </section>
-
-    <footer>
-        © 2025 Amazon UI Clone
-    </footer>
-
-    </body>
-    </html>
+</body>
+</html>
